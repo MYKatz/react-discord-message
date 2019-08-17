@@ -1,0 +1,70 @@
+.discordmsg {
+  background-color: #36393f;
+  padding-top: 10px;
+  padding-right: 15px;
+  display: flex;
+  color: white;
+  text-align: left;
+}
+
+.discordbody {
+  margin-top: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.discordnick {
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+.discordtext {
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+.discordavatar {
+  height: 40px !important;
+  width: 40px !important;
+  display: initial !important;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.discordnick {
+  margin-top: -3px;
+}
+
+.discordname {
+  font-weight: bold;
+}
+
+.discordbottag {
+  background-color: #7289da;
+  color: #fff;
+  margin-left: 0.4rem;
+  border-radius: 3px;
+  font-size: 0.725rem;
+  padding: 0.075rem 0.275rem;
+}
+
+.discorddatetime {
+  color: hsla(0, 0%, 100%, 0.2);
+  font-size: 0.7rem;
+  margin-left: 0.4rem;
+}
+
+.discordreactions {
+  margin-top: 3px;
+  display: flex;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.discordchannelreference {
+  color: #7289da;
+  background-color: rgba(114, 137, 218, 0.1);
+  margin-right: 0.6rem;
+}

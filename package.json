@@ -1,0 +1,56 @@
+{
+  "name": "react-discord-message",
+  "version": "1.0.0",
+  "description": "Discord message component for React.js",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MYKatz/react-discord-message.git"
+  },
+  "keywords": [
+    "react",
+    "discord"
+  ],
+  "author": "Matthew Katz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MYKatz/react-discord-message/issues"
+  },
+  "homepage": "https://github.com/MYKatz/react-discord-message#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "dependencies": {
+    "react-twemoji": "^0.2.3"
+  }
+}

@@ -1,0 +1,30 @@
+.discordreaction {
+  background-color: hsla(0, 0%, 100%, 0.04);
+  padding: 0.075rem 0.475rem;
+  margin-right: 0.4rem;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.discordreactionemoji {
+  margin-right: 0.2rem;
+  margin-top: 3px;
+}
+
+.discordtwemoji {
+  height: 1rem !important;
+  width: 1rem !important;
+}
+
+.discordreactionclicked {
+  background-color: rgba(92, 106, 158, 0.3);
+  color: #7289da;
+}
+
+.discordembed {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
